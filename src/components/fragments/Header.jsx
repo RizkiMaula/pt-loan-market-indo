@@ -15,20 +15,20 @@ const options = [
 const customStyles = {
   control: (provided) => ({
     ...provided,
-    border: 'none', // Remove the border
-    boxShadow: 'none', // Remove the shadow (grey line)
-    backgroundColor: 'transparent', // Optional: Set background to transparent
+    border: 'none',
+    boxShadow: 'none',
+    backgroundColor: 'transparent',
   }),
   dropdownIndicator: (provided) => ({
     ...provided,
-    color: '#000', // Customize the dropdown arrow color
+    color: '#000',
   }),
   indicatorSeparator: () => ({
-    display: 'none', // Remove the vertical line between the dropdown arrow and input
+    display: 'none',
   }),
 };
 
-const Header = ({ title = 'coba doang' }) => {
+const Header = ({ title = 'Dashboard' }) => {
   return (
     <div className="flex justify-between w-full px-4 py-2 border-b-[1px] font-inter">
       <div className="border-black border-3">
